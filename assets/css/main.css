@@ -744,7 +744,12 @@ main {
     background-size: cover;
     position: relative
 }
-
+@media (min-width:391px) and (max-width:575px) {
+    .Header {
+        height: 240px;
+    }
+    
+}
 .Header .Avatar {
     position: absolute;
     width: 126px;
